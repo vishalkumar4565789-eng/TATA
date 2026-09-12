@@ -133,6 +133,13 @@
             font-size: 14px;
             color: #a0aab2;
             width: 90%;
+            display: block;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .managed-by:hover {
+            border-color: #38b6ff;
         }
 
         .managed-by span {
@@ -188,10 +195,10 @@
             🗿 No Paid Promotions • No Fake Calls • 100% Transparent Performance
         </div>
 
-        <!-- Managed By Badge -->
-        <div class="managed-by">
+        <!-- Managed By Badge (Clickable) -->
+        <a href="https://t.me/+jViKIQmWTLFmNjNl" class="managed-by" onclick="fbq('track', 'Lead');">
             Managed by <span>Ai ads agency</span>
-        </div>
+        </a>
     </div>
 
 <!-- Meta Pixel Code -->
